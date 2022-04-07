@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
+#area {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: cornsilk;
+	position: relative;
+	overflow: hidden;
+}
+
+#drag {
+	visibility: hidden;
+	background-color: rgba(40, 75, 150, 0.5);
+	border: solid 2px rgb(40, 75, 150);
+	position: absolute;
+}
